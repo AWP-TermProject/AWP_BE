@@ -15,9 +15,9 @@ spring:
   application:
     name: userservice
   datasource:
-    url: jdbc:mysql://127.0.0.1:3307/awp?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&allowPublicKeyRetrieval=true&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/awp?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&allowPublicKeyRetrieval=true&useSSL=false
     username: root
-    password: 1111
+    password: jwseo0204
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:

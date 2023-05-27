@@ -25,7 +25,7 @@ public class UserController {
         User member = new User(1, "gachon", "gachon.ac.kr", "gcu");
         return member;
     }
-    @GetMapping("/api/user")
+    @GetMapping("/api/users")
     public List<User> showAll(){
         return userRepository.findAll();
     }
@@ -34,6 +34,8 @@ public class UserController {
         userRepository.save(member);
         return "member create ok";
     }
+    //email, pw
+
 
     //회원가입 api : post/api/register/local
 
