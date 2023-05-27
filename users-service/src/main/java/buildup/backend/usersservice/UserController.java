@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Optional;
 
 //@CrossOrigin("http://localhost:8083")
+@CrossOrigin
 @RestController
 public class UserController {
     @Autowired
