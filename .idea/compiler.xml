@@ -9,9 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="register-service" />
         <module name="user-service" />
-        <module name="users-service" />
-        <module name="review-service" />
         <module name="eureka" />
+        <module name="review-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
