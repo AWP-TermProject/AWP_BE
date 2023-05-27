@@ -14,9 +14,9 @@ spring:
   application:
     name: reviewservice
   datasource:
-    url: jdbc:mysql://127.0.0.1:3307/awp?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&allowPublicKeyRetrieval=true&useSSL=false
-    username: ${DATABASE_USERNAME} # root
-    password: ${DATABASE_PASSWORD} # 1111
+    url: jdbc:mysql://127.0.0.1:3306/awp?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: jwseo0204
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:

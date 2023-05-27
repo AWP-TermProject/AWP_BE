@@ -22,7 +22,7 @@ public class Review {
     private String title;
 
     @Lob
-    @Column(name = "contents")
+    @Column(name = "content")
     private String contents;
 
     @Builder
