@@ -30,6 +30,7 @@
       <module name="register-service" options="-parameters" />
       <module name="review-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
+      <module name="users-service" options="-parameters" />
     </option>
   </component>
 </project>
