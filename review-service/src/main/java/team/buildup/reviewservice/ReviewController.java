@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin
 @RestController
 public class ReviewController {
     final ReviewRepository reviewRepository;
@@ -30,7 +31,7 @@ public class ReviewController {
         if (reviewUpdate.isPresent()) {
             Review _review = reviewUpdate.get();
             _review.setTitle(review.getTitle());
-            _review.setContents(review.getContents());
+            _review.setContent(review.getContent());
 
             return new ResponseEntity<>(reviewRepository.save(_review), HttpStatus.OK);
         } else {
