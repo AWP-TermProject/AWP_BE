@@ -25,7 +25,7 @@ public class UserController {
         User member = new User(1, "gachon", "gachon.ac.kr", "gcu");
         return member;
     }
-    @GetMapping("/api/users")
+    @GetMapping("/api/user/all")
     public List<User> showAll(){
         return userRepository.findAll();
     }

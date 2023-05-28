@@ -22,7 +22,7 @@ public class ReviewController {
     @GetMapping("/api/review/{id}")
     public Optional<Review> show(@PathVariable("id") Long id) {
         return reviewRepository.findById(id); }
-    @GetMapping("/api/reviews") public List<Review> showAll() {
+    @GetMapping("/api/review/all") public List<Review> showAll() {
         return reviewRepository.findAll(); }
 
     @PutMapping("/api/review/{id}")
