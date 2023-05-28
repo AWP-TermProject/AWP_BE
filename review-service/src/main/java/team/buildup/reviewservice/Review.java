@@ -22,13 +22,8 @@ public class Review {
     private String title;
 
     @Lob
-    @Column(name = "contents")
-    private String contents;
+    @Column(name = "content")
+    private String content;
 
-    @Builder
-    public Review(Long id, String title, String contents) {
-        this.id = id;
-        this.title = title;
-        this.contents = contents;
-    }
+
 }
